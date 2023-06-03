@@ -41,7 +41,7 @@ Django ToDoApp is a web application for managing tasks and to-do lists. It allow
 
 7. Run the development server:
 
-    python manage.py runserver
+    `python manage.py runserver`
 
 
 
