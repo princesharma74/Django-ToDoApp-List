@@ -13,38 +13,41 @@ Django ToDoApp is a web application for managing tasks and to-do lists. It allow
 ## Installation
 
 1. Clone the repository:
-```git clone https://github.com/your-username/todoapp.git```
-```cd todoapp```
 
-3. Create a virtual environment:
+    `git clone https://github.com/princesharma74/Django-ToDoApp-List.git`
 
-```python -m venv env```
+    `cd todoapp`
 
-4. Activate the virtual environment:
-**On macOS and Linux:** 
+2. Create a virtual environment:
 
-source env/bin/activate
+    `python -m venv env`
 
-**On Windows:**
+3. Activate the virtual environment:
+     **On macOS and Linux:**
 
-.\env\Scripts\activate
-.\env\Scripts\activate
+      `source env/bin/activate`
+
+     **On Windows:**
+
+     `.\env\Scripts\activate`
 
 5. Install the dependencies:
 
-    pip install -r requirements.txt
-
+    `pip install -r requirements.txt`
+    
 6. Set up the database:
 
-    python manage.py migrate
+    `python manage.py migrate`
 
-Run the development server:
+7. Run the development server:
 
     python manage.py runserver
 
+
+
 Access the application at http://localhost:8000/ in your web browser.
 
-API Endpoints
+**API Endpoints**
 
     GET /api/ - Overview of available API endpoints.
     GET /api/task-list/ - Retrieve a list of all tasks.
